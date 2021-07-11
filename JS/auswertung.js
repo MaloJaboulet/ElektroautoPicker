@@ -64,7 +64,7 @@ function autoAnzeigen(autoDaten) {
     if (auto.length != 0) {
         var autoObjekt = auto[Math.floor(Math.random() * auto.length)];
 
-        document.getElementById("autoTitel").innerHTML = autoObjekt.name;
+        document.getElementById("autoTitel").innerHTML = "Model: " +autoObjekt.name;
         document.getElementById("marke").innerHTML = "Marke: " + autoObjekt.marke;
         document.getElementById("reichweite").innerHTML = "Reichweite: " + autoObjekt.reichweite;
         document.getElementById("anzahlPlaetze").innerHTML = "Anzahl Plätze: " + autoObjekt.anzahlPlaetze;
