@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auswertung</title>
+    <script type="text/javascript" src="JS/auswertung.js"></script>
+    <link rel="stylesheet" href="CSS/auswertung.css">
+</head>
+<body onload="autoWaehlen()">
+
+<header>
+    <div class="col"></div>
+    <div class="col">
+        <h1 class="title">Auswertung</h1>
+    </div>
+    <div class="col">
+        <div class="navAlles">
+            <div class="nav">
+                <nav class="navLinks">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="picker.html">Picker</a>
+                    <!--<a href="ich.html">Über mich</a>-->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="autoDatenAnzeige">
+    <div id="autoDatenText">
+        <span id="autoTitel">Titel</span>
+        <span id="marke"></span>
+        <span id="reichweite"></span>
+        <span id="anzahlPlaetze"></span>
+        <span id="fahrverhalten"></span>
+        <span id="preis"></span>
+    </div>
+    <div id="autoBild"></div>
+
+</div>
+
+<script type="application/json" src="./daten.json"></script>
+
+</body>
+</html>

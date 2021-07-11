@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/picker.css">
+    <script type="text/javascript" src="JS/picker.js"></script>
+    <title>Picker</title>
+</head>
+<body>
+<header>
+    <div class="col"></div>
+    <div class="col">
+        <h1 class="title">
+            Wähle dein Auto
+        </h1>
+    </div>
+    <div class="col">
+        <div class="navAlles">
+            <div class="nav">
+                <nav class="navLinks">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="picker.html">Picker</a>
+                    <!--<a href="ich.html">Über mich</a>-->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <form action="auswertung.html">
+        <div class="gruppen">
+            <p class="textGruppen">Anzahl Erwachsene in der Familie</p>
+            <div class="erwachsenenAuswahl">
+                <div class="erwachsenenAuswahlEinzeln">
+                    <input type="radio" name="anzahlErwachsene" id="einErwachsene" value=1
+                           checked>
+                    <label for="einErwachsene">eine erwachsene Person</label>
+                </div>
+                <div class="erwachsenenAuswahlEinzeln">
+                    <input type="radio" name="anzahlErwachsene" id="zweiErwachsene" value=2>
+                    <label for="zweiErwachsene">zwei erwachsene Personen</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="gruppen">
+            <p class="textGruppen">Anzahl Kinder</p>
+            <select name="kinder" class="auswahlKinder" id="kinder">
+                <option value=1>ein Kind</option>
+                <option value=2>zwei Kinder</option>
+                <option value=3>drei Kinder</option>
+                <option value=4>vier Kinder</option>
+                <option value=5>fünf Kinder</option>
+            </select>
+        </div>
+
+        <div class="gruppen">
+            <p class="textGruppen">Anzahl gefahrene Kilometer in der Woche</p>
+            <input type="number" id="kilometerWoche" placeholder="Kilometer" class="eingabeFeld" required>
+        </div>
+
+        <div class="gruppen">
+            <p class="textGruppen">Budget</p>
+            <input type="number" id="budget" placeholder="Budget in CHF" class="eingabeFeld" required>
+        </div>
+
+        <div class="gruppen">
+            <p class="textGruppen">Möglichkeit für eine Ladestation zu Hause</p>
+            <div class="toggleDiv" >
+                <label class="toggle">
+                    <input type="checkbox" id="ladestation">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="gruppen">
+            <p class="textGruppen">Weite Reisen</p>
+            <div class="toggleDiv">
+
+                <label id="weiteReisen" class="toggle" onclick="kilometerReisen()">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div>
+                <input id="kilometerReisen" type="number" placeholder="Kilometer" class="eingabeFeld">
+            </div>
+        </div>
+
+        <div class="gruppen">
+            <p class="textGruppen">Sportliches Fahrverhalten</p>
+            <select id="fahrverhalten" class="auswahlFahrverhalten" name="fahrverhalten">
+                <option value="1">1 sehr sportlich</option>
+                <option value="2">2 sportlich</option>
+                <option value="3">3 nicht sehr sportlich</option>
+                <option value="4">4 gar nicht sportlich</option>
+            </select>
+        </div>
+        <div class="buttonGruppe">
+            <button class="button" type="button" onclick="location.href = 'index.html';">Cancel</button>
+            <button class="button" type="reset">Reset</button>
+            <button class="button" type="submit" onclick="datenUebergeben();">Absenden</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>

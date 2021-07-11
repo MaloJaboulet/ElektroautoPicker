@@ -1,0 +1,191 @@
+[
+  {
+    "marke": "Tesla",
+    "name": "Model 3 Long Range Dual Motor ",
+    "anzahlPlaetze": 5,
+    "preis": 55000,
+    "reichweite": 460,
+    "fahrverhalten": "sportlich",
+    "bild": "model3.jpg"
+  },
+  {
+    "marke": "Ford",
+    "name": "Mach e",
+    "anzahlPlaetze": 4,
+    "preis": 75000,
+    "reichweite": 300,
+    "fahrverhalten": "sportlich",
+    "bild": "machE.png"
+  },
+  {
+    "marke": "Skoda",
+    "name": "Enyaq iV 80",
+    "anzahlPlaetze": 5,
+    "preis": 45000,
+    "reichweite": 420,
+    "fahrverhalten": "nicht sehr sportlich",
+    "bild": "enyaq_iV.jpg"
+  },
+  {
+    "marke": "Volkswagen",
+    "name": "ID.3 Pure Performance",
+    "anzahlPlaetze": 5,
+    "preis": 32000,
+    "reichweite": 275,
+    "fahrverhalten": "sportlich",
+    "bild": "id3.jpg"
+  },
+  {
+    "marke": "Volkswagen",
+    "name": "ID.4 1st",
+    "anzahlPlaetze": 5,
+    "preis": 43000,
+    "reichweite": 410,
+    "fahrverhalten": "nicht sehr sportlich",
+    "bild": "id4.jpg"
+  },
+  {
+    "marke": "Nissan",
+    "name": "Leaf",
+    "anzahlPlaetze": 5,
+    "preis": 32000,
+    "reichweite": 220,
+    "fahrverhalten": "gar nicht sportlich",
+    "bild": "leaf.jpg"
+  },
+  {
+    "marke": "Mercedes",
+    "name": "EQA 250",
+    "anzahlPlaetze": 5,
+    "preis": 47000,
+    "reichweite": 355,
+    "fahrverhalten": "sportlich",
+    "bild": "eqa.jpg"
+  },
+  {
+    "marke": "Tesla",
+    "name": "Model 3 Standard Range Plus",
+    "anzahlPlaetze": 5,
+    "preis": 47000,
+    "reichweite": 335,
+    "fahrverhalten": "sportlich",
+    "bild": "model3.jpg"
+  },
+  {
+    "marke": "Hyundai",
+    "name": "Kona Electric",
+    "anzahlPlaetze": 5,
+    "preis": 42000,
+    "reichweite": 395,
+    "fahrverhalten": "nicht sehr sportlich",
+    "bild": "kona.jpg"
+  },
+  {
+    "marke": "Audi",
+    "name": "e-tron GT RS",
+    "anzahlPlaetze": 4,
+    "preis": 142000,
+    "reichweite": 405,
+    "fahrverhalten": "sehr sportlich",
+    "bild": "e_tron_GT_RS.jpg"
+  },
+  {
+    "marke": "Audi",
+    "name": "Q4 e-tron 35",
+    "anzahlPlaetze": 5,
+    "preis": 47000,
+    "reichweite": 285,
+    "fahrverhalten": "sportlich",
+    "bild": "q4.jpg"
+  },
+  {
+    "marke": "Tesla",
+    "name": "Model Y Long Range Dual Motor",
+    "anzahlPlaetze": 7,
+    "preis": 62000,
+    "reichweite": 425,
+    "fahrverhalten": "sportlich",
+    "bild": "modelY.jpg"
+  },
+  {
+    "marke": "Volkswagen",
+    "name": "e-UP!",
+    "anzahlPlaetze": 4,
+    "preis": 27000,
+    "reichweite": 205,
+    "fahrverhalten": "nicht sehr sportlich",
+    "bild": "e_UP.jpg"
+  },
+  {
+    "marke": "BMW",
+    "name": "IX3",
+    "anzahlPlaetze": 5,
+    "preis": 66000,
+    "reichweite": 360,
+    "fahrverhalten": "sportlich",
+    "bild": "ix3.jpg"
+  },
+  {
+    "marke": "Tesla",
+    "name": "Model s Plaid",
+    "anzahlPlaetze": 5,
+    "preis": 127000,
+    "reichweite": 535,
+    "fahrverhalten": "sehr sportlich",
+    "bild": "modelS_plaid.jpg"
+  },
+  {
+    "marke": "Peugeot",
+    "name": "e-208",
+    "anzahlPlaetze": 5,
+    "preis": 33000,
+    "reichweite": 275,
+    "fahrverhalten": "sportlich",
+    "bild": "e208.jpg"
+  },
+  {
+    "marke": "Honda",
+    "name": "e",
+    "anzahlPlaetze": 4,
+    "preis": 34000,
+    "reichweite": 170,
+    "fahrverhalten": "nicht sehr sportlich",
+    "bild": "e_Honda.jpg"
+  },
+  {
+    "marke": "Tesla",
+    "name": "Model X Long Range",
+    "anzahlPlaetze": 7,
+    "preis": 100000,
+    "reichweite": 475,
+    "fahrverhalten": "nicht sehr sportlich",
+    "bild": "modelX.jpg"
+  },
+  {
+    "marke": "Peugeot",
+    "name": "e-Traveller Standard",
+    "anzahlPlaetze": 8,
+    "preis": 55000,
+    "reichweite": 185,
+    "fahrverhalten": "gar nicht sportlich",
+    "bild": "e_traveller.jpg"
+  },
+  {
+    "marke": "Toyota",
+    "name": "PROACE Verso L",
+    "anzahlPlaetze": 8,
+    "preis": 63000,
+    "reichweite": 270,
+    "fahrverhalten": "gar nicht sportlich",
+    "bild": "proace_verso.png"
+  },
+  {
+    "marke": "Opel",
+    "name": "Zafira-e Life L",
+    "anzahlPlaetze": 9,
+    "preis": 63000,
+    "reichweite": 270,
+    "fahrverhalten": "gar nicht sportlich",
+    "bild": "zafiraE.jpg"
+  }
+]

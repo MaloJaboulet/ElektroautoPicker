@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="CSS/index.css">
     <title>Elektroautopicker</title>
 </head>
-<body>
+<body onload="changeCar()">
 
 <header>
     <div class="col"></div>
@@ -32,47 +32,17 @@
     </div>
 
     <div class="autoGalerie">
-        <div class="einAutoInGalerie">
-            <img class="bildAuto" src="Img/model3.jpg" alt="Bild von einem Tesla Model 3">
+        <div  id="slideshow" class="einAutoInGalerie">
+            <div id="bildAutoHome"></div>
             <p class="autoTextbeschreibung">
-            <h3>Tesla Model 3</h3><br>
-            Geschwindigkeit: 200 km/h<br>
-            Reichweite: 500 km<br>
-            Preis: 50'000 CHF<br>
-            Insassen: 4
-            </p>
-        </div>
-        <div class="einAutoInGalerie">
-            <img class="bildAuto" src="Img/model3.jpg" alt="Bild von einem Tesla Model 3">
-            <p class="autoTextbeschreibung">
-            <h3>Tesla Model 3</h3><br>
-            Geschwindigkeit: 200 km/h<br>
-            Reichweite: 500 km<br>
-            Preis: 50'000 CHF<br>
-            Insassen: 4
-            </p>
-        </div>
-        <div class="einAutoInGalerie">
-            <img class="bildAuto" src="Img/model3.jpg" alt="Bild von einem Tesla Model 3">
-            <p class="autoTextbeschreibung">
-            <h3>Tesla Model 3</h3><br>
-            Geschwindigkeit: 200 km/h<br>
-            Reichweite: 500 km<br>
-            Preis: 50'000 CHF<br>
-            Insassen: 4
-            </p>
-        </div>
-        <div class="einAutoInGalerie">
-            <img class="bildAuto" src="Img/model3.jpg" alt="Bild von einem Tesla Model 3">
-            <p class="autoTextbeschreibung">
-            <h3>Tesla Model 3</h3><br>
-            Geschwindigkeit: 200 km/h<br>
-            Reichweite: 500 km<br>
-            Preis: 50'000 CHF<br>
-            Insassen: 4
+                <h3 id="modelName"></h3><br>
+                <span id="reichweite"></span><br>
+                <span id="preis"></span><br>
+                <span id="insassen"></span>
             </p>
         </div>
     </div>
 </main>
+<script src="JS/slideshow.js"></script>
 </body>
 </html>
